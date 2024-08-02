@@ -4,10 +4,12 @@
 }
 
 #servicios_title {
-    grid-column: 1/5;
+    grid-column: 2/4;
+    margin-top: 15px;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 35px;
     color: #fff;
+    grid-row: 1;
 }
 
 #img-servicios1 {
@@ -29,7 +31,7 @@
     margin-top: 30%;
 }
 
-#pg1 {
+#servicios1p {
     grid-column: 1/5;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
