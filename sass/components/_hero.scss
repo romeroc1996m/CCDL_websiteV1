@@ -38,27 +38,23 @@
         text-align: center;
     }
 
-    @media screen and (min-width:768px) {
-        #hero {
-            height: 400px;
-        }
-
-        #img-title {
-            grid-column: 1/8;
-        }
-
-        .hero_button {
-            grid-column: 2/7;
-            grid-row: 1;
-            margin-top: 260px;
-        }
-
+@media screen and (min-width:768px) {
+    #hero {
+        height: 400px;
     }
 
+    #img-title {
+        grid-column: 1/8;
+    }
 
+    .hero_button {
+        grid-column: 2/7;
+        grid-row: 1;
+        margin-top: 260px;
+    }
+}
 
-
-    @media screen and (min-width:1200px) {
+@media screen and (min-width:1200px) {
     
     #hero {
         height: 550px;
@@ -78,4 +74,4 @@
         font-size: 65px;
     }
 
-    }
+}
