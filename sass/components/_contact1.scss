@@ -1,0 +1,66 @@
+#contact {
+    background-color: #4EAD3C;
+}
+
+#contact1 {
+    grid-column: 1/4;
+    background-image: url(/images/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo-contact {
+    grid-column: 1/5;  
+    margin-top: 50px;
+}
+
+.contact1 {
+    grid-column: 1/5;
+    margin-top: 50px; 
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+
+    #contact1 {
+        grid-column: 1/6;
+    }
+
+    #logo-contact {
+        margin-top: 50px;
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .contact1 {
+        margin-top: 230px;
+    }
+
+}
+
+@media screen and (min-width:1200px) { 
+
+    #logo-contact {
+        margin-top: 70px;
+        width: 300px;
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (min-width:1920px) { 
+
+    #logo-contact {
+        margin-top: 70px;
+        width: 300px;
+        margin-left: 70px;
+    }
+
+    .contact1 {
+        font-size: 20px;
+    }
+
+}
