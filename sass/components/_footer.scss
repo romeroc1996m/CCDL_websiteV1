@@ -1,0 +1,76 @@
+footer {
+    background-image: url(/images/footerV2.png);
+    background-position: 50%;  
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+#logo-footer {
+    grid-column: 1/4;
+    width: 300px;
+    margin-top: 30px;
+}
+
+#footer_text {
+    grid-column: 1/5;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#copy {
+    grid-column: 4/5;
+}
+
+@media screen and (min-width:768px) {
+    footer {
+        grid-column: 1/-1;
+    }
+    
+    #logo-footer {
+        grid-column: 1/4;
+        width: 300px;
+        margin-top: 30px;
+    }
+    
+    #footer_text {
+        grid-column: 2/8;
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    #copy {
+        grid-column: 11/12;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    footer {
+        grid-column: 1/-1;
+        height: 250px;
+    }
+    
+    #logo-footer {
+        grid-column: 1/4;
+        width: 300px;
+        margin-top: 30px;
+    }
+    
+    #footer_text {
+        grid-column: 2/8;
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    #copy {
+        grid-column: 11/12;
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+}
