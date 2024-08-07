@@ -1,0 +1,87 @@
+#certificaciones {
+    background-image: url(/images/Certificados1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#titulo_cert {
+    margin-top: 50px;
+    grid-column: 1/5;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#bureau {
+    grid-column: 1/5;
+    font-family: "Poppins", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#ambiental {
+    grid-column: 1/5;
+    font-family: "Poppins", sans-serif;
+    margin-top: 80px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+
+    #titulo_cert {
+        margin-top: 50px;
+        grid-column: 4/10;
+        font-size: 40px;
+    }
+
+    #bureau {
+        grid-column: 2/12;
+        margin-top: 50px;
+    }
+    
+    #ambiental {
+        grid-column: 2/12;
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #titulo_cert {
+        margin-top: 50px;
+        grid-column: 4/10;
+        font-size: 40px;
+    }
+
+    #bureau {
+        grid-column: 2/12;
+        margin-top: 50px;
+    }
+    
+    #ambiental {
+        grid-column: 2/12;
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+
+    #titulo_cert {
+        margin-top: 50px;
+        grid-column: 4/10;
+        font-size: 40px;
+    }
+
+    #bureau {
+        grid-column: 2/12;
+        margin-top: 50px;
+    }
+    
+    #ambiental {
+        grid-column: 2/12;
+        margin-top: 80px;
+    }
+
+}
